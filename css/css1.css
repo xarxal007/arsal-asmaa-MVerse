@@ -1,0 +1,60 @@
+/* Set the height of the welcome section to the height of the viewport */
+#welcome-section {
+    height: 100vh;
+  }
+  
+  /* Position the navbar at the top of the viewport and style links */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  #navbar a {
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Style the h1 element inside the welcome section */
+  #welcome-section h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  /* Style the projects section and project tiles */
+  #projects {
+    padding: 50px;
+  }
+  
+  .project-tile {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-tile a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Media query for screens wider than 600px */
+  @media screen and (min-width: 600px) {
+    /* Make the navbar links inline instead of block */
+    #navbar a {
+      display: inline;
+      margin-right: 30px;
+    }
+  
+    /* Style the h1 element inside the welcome section */
+    #welcome-section h1 {
+      font-size: 60px;
+    }
+  }
